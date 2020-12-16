@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@uirouter/angularjs": "^1.0.10",
-    "angular": "^1.2.*",
-    "angular-jwt": "^0.1.9"
+    "@uirouter/angularjs": "1.0.10",
+    "angular": "1.2.*",
+    "angular-jwt": "0.1.9"
   },
   "devDependencies": {
     "express": "^4.14.1"

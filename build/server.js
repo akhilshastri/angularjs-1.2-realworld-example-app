@@ -1,6 +1,11 @@
 var express     = require('express');
-var PORT        = 4567;
+var PORT        = 3000;
 var application = express();
+
+application.use((req,res,next)=>{
+    console.log(req.url);
+    next();
+})
 
 application.use(express.static('../src'));
 application.use('/scripts', express.static(__dirname + '/../node_modules'));
